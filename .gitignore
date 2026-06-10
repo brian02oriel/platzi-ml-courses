@@ -1,3 +1,3 @@
 *.pyc
 .venv/*
-./ml-ops/mlruns/*
+ml-ops/mlruns/*
