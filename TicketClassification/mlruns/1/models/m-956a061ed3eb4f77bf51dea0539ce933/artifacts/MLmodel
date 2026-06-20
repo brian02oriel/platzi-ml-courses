@@ -1,0 +1,26 @@
+artifact_path: /home/brian02oriel/Documents/Platzi Courses/ml-courses/TicketClassification/mlruns/1/models/m-956a061ed3eb4f77bf51dea0539ce933/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - sklearn.metrics._classification.f1_score
+    - sklearn.metrics._scorer._Scorer
+    - sklearn.model_selection._split.StratifiedKFold
+mlflow_version: 3.14.0
+model_id: m-956a061ed3eb4f77bf51dea0539ce933
+model_size_bytes: 423919
+model_uuid: m-956a061ed3eb4f77bf51dea0539ce933
+prompts: null
+run_id: 0ff3c3d01a95486686aa26796166d787
+utc_time_created: '2026-06-20 18:47:05.753136'

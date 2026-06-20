@@ -1,0 +1,23 @@
+artifact_path: /home/brian02oriel/Documents/Platzi Courses/ml-courses/ml-ops/mlruns/1/models/m-25409ae644ec450fac08ef9c36180dcf/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-25409ae644ec450fac08ef9c36180dcf
+model_size_bytes: 836
+model_uuid: m-25409ae644ec450fac08ef9c36180dcf
+prompts: null
+run_id: a27ac9baa79849b68be6400163830097
+utc_time_created: '2026-06-10 00:38:51.280205'
