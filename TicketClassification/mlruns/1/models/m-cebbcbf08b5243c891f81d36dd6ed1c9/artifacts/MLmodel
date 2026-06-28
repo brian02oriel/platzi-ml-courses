@@ -1,0 +1,26 @@
+artifact_path: /Users/brian02oriel/Documents/Python projects/platzi-ml-courses/TicketClassification/mlruns/1/models/m-cebbcbf08b5243c891f81d36dd6ed1c9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - sklearn.metrics._classification.f1_score
+    - sklearn.metrics._scorer._Scorer
+    - sklearn.model_selection._split.StratifiedKFold
+mlflow_version: 3.14.0
+model_id: m-cebbcbf08b5243c891f81d36dd6ed1c9
+model_size_bytes: 646655
+model_uuid: m-cebbcbf08b5243c891f81d36dd6ed1c9
+prompts: null
+run_id: c83240a924fb43d2a2149b2c14dd3b81
+utc_time_created: '2026-06-28 18:23:26.192120'
